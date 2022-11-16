@@ -1,0 +1,505 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 253, 250);
+}
+
+  /* text scroll */
+
+  p{
+    font-weight: bold;
+  }
+
+/*navbar*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navBar{
+    display: flex;
+    gap: 1em;
+}
+
+h3:hover{
+    cursor: pointer;
+    color:  rgb(202, 202, 202);;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+a[ id= "servicios" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "galeria" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[ id= "contacto" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+
+/*landingCard*/
+
+.mainCard{
+    text-align:left;
+    margin:  200px 0 0 28%;
+}
+.cardDiv{
+    display: flex;
+    justify-content: left;
+    margin-right: 500px;
+}
+
+#mainImg{
+    width: 650px;
+    margin: 200px 0px 0 -100px;
+}
+
+h1{
+    font-size:  80px;
+    line-height: 70px;
+    margin-bottom: 35px;
+  
+}
+
+#mainCardP{
+    margin-top: 45px;
+    width: 40vw;
+    word-wrap: break-word;
+}
+
+/* Selected Work */
+
+#cardTitle{
+    display: grid;
+    justify-content: left;
+    text-align:left;
+    margin: 300px 0 -300px 20.3%;
+    font-size: 40px;
+    height: 150px;
+}
+
+.projectCards{
+    display: grid;
+    justify-items: center;
+    margin: 300px ;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  
+}
+
+  .cardFour{
+    border: 4px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 540px;
+    padding: 30px 50px ;
+    font-size: 25px;
+    text-shadow: 0 0 5px whitesmoke;
+    border-radius: 20px;
+    margin: 40px -20px 0 0;
+    line-height: 16px;
+    background-image: url("images/ddf.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x:  -120px;
+    background-position-y:  0px;
+    transition: margin 0.2s ease; 
+}
+
+.cardFour:hover {
+    margin-top: -10px;
+  }
+
+text{
+    font-size: 26px;
+}
+
+/* Resume */
+
+#cardTitle2{
+    display: grid;
+    justify-content: left;
+    text-align:left;
+    margin: -200px 0 0px 20.5%;
+    font-size: 45px;
+    height: 150px;
+   
+}
+
+.resume{
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    font-weight: normal;
+    width: 30vw;
+}
+
+.flexBox{
+    display: flex;
+   justify-content: center;
+   gap: 100px;
+   margin:  0 0 0 -190px;
+}
+
+.flexBox2{
+    display: flex;
+    margin-left: 15.8vw;
+   
+   margin-top: 50px;
+}
+
+.workEx{
+    width: 450px;
+    height: 540px;
+    padding: 30px 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 40px -20px 0px 8%;
+    line-height: 30px;
+   
+}
+
+.education{
+    
+    width: 450px;
+    height: 540px;
+    padding: 30px 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    margin: 45px -20px 0 0;
+    line-height: 30px;
+    
+    
+
+}
+
+.design{
+
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 540px;
+    padding: 30px 50px;
+    font-size: 25px;
+    margin: 75px 0 0 30px;
+    border-radius: 20px;
+    gap: 30px;
+    line-height: 40px;
+
+}
+.development{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 540px;
+    padding: 30px 50px;
+    margin: 210px 0 0 -100px ;
+    font-size: 25px;
+    border-radius: 20px;
+    gap: 30px;
+    line-height: 40px;
+}
+
+.onlineCourses{
+    
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: 8px 420px 300px 0;
+}
+
+
+
+#resumeTitle{
+    line-height: 150px;
+margin-bottom: 0px;
+font-weight: 800;
+
+}
+
+
+#padding{
+    margin: 28px 0 -20px;
+    font-weight: bold;
+}
+.design-two{
+    
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 540px;
+    padding: 30px 50px;
+    font-size: 25px;
+    margin: 75px 0 0 30px;
+    border-radius: 20px;
+    gap: 30px;
+    line-height: 20px;
+
+}
+
+.design-three{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 540px;
+    padding: 30px 50px;
+    font-size: 25px;
+    margin: -290px 0 0 30px;
+    border-radius: 20px;
+    gap: 30px;
+    line-height: 20px;
+}
+
+#downloadResume{
+    display: flex;
+    border:  3px solid;
+    margin: -320px 0 0 -560px;
+    width: 320px;
+    
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    height: 45px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+#downloadResume:hover{
+    background-color: rgb(205, 202, 202);
+    cursor: pointer;
+    color: white;
+}
+
+/* About Me */
+
+#aboutMe{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+position: relative;
+margin: -300px 0 0 -560px;
+width: 50vw;
+}
+
+#cardTitle4{
+    font-size: 60px;
+    position: absolute;
+}
+
+/*Contact*/
+
+.contact{
+margin: 200px 0 0 -560px;
+
+display: flex;
+flex-direction: column;
+
+width: 50vw;
+}
+
+#formImg{
+    width: 700px;
+    margin: -50px 0 0 -710px;
+
+}
+
+#contactDiv{
+    display: flex;
+margin: 20px 0 0 0;
+}
+
+#formOne{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 65px;
+    border: 3px solid;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#formTwo{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 3px solid;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#formThree{
+    width: 500px;
+    height: 150px;
+    margin-bottom: 5px;
+    border: 3px solid;
+    font-size: 20px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.square-button{
+    width:120px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.line{
+    width: 1300px;
+    border-top: solid 3px;
+   display: flex;
+   margin: 0 auto;
+   justify-content: flex-end;
+}
+
+.headerImg{
+    display: flex;
+width: 70%;
+justify-content: center;
+}
+/* Blog It */
+
+.headerDisplay{
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position-y: -350px;
+    background-repeat: no-repeat;
+}
+.one{
+    background-image: url("images/iPhone\ XR\ Isometric.jpg");
+}
+
+.blogIt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+   margin: 0 auto;
+}
+/* World Live */
+
+.two{
+    background-image: url("images/Michias\ Asnake\ _\ Final\ stationary\ System.jpg");
+}
+
+/* Magic 8 Ball */
+
+.three{
+    background-image: url("images/OS971A1.jpg");
+}
+
+i:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.header-text{
+    display: flex;
+}
+
+/* Unit Converter */
+
+.four{
+    background-image: url("images/ddf.png");
+}
+
+/* Footer */
+
+footer{
+    width: 70%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.lines{
+    margin: 100px -590px;
+    border-top: solid 3px;
+    display: flex;
+    justify-content: flex-end;
+    width:1150px;
+}
+
+.screenShot{
+    
+margin: 0 auto;
+    width: 30vw;
+    height: 500px;
+    
+}
+
+.blogIts{
+    
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    width: 80vw;
+    gap: 20px;
+    justify-content: center;
+    
+    margin: 45px auto;
+    
+    
+}
+
+#swImg{
+    width: 100px;
+    margin: -440px 18vw ;
+}
+
+#rImg{
+    width: 100px;
+    margin: 48px 18vw ;
+}
+
+#amImg{
+   
+    width: 100px;
+    margin: 15px 0 0 -25px;
+    
+}
+
+#cImg{
+    width: 100px;
+   margin: 15px 0 0 -30px;
+    
+}
+
+.contactImg{
+    
+    margin: 100px 0 0 0;
+}
+
+.aboutImg{
+    width: 500px;
+   height: 1px;
+    margin: 0px -590px;
+}
+
+h1,h2,p,text,h3{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1.2s ease-out;
+}
+ 
+.headerVisible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
