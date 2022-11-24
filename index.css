@@ -422,6 +422,14 @@ i:hover{
     background-image: url("images/coolor\ home.png");
 }
 
+/* Coolors */
+
+.six{
+    background-image: url("images/moviewatchlist.jpg");
+    background-size:cover;
+}
+
+
 /* Footer */
 
 footer{
