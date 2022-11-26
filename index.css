@@ -263,7 +263,7 @@ font-weight: 800;
 
 #downloadResume{
     display: flex;
-    border:  3px solid;
+    border:  3px solid black;
     margin: -320px 0 0 -560px;
     width: 320px;
     box-shadow: 5px 5px 8px  black;
@@ -356,6 +356,12 @@ margin: 20px 0 0 0;
     background-color: white;
     border-radius: 20px;
     font-size: 20px;
+}
+
+.square-button:hover{
+    background-color: rgb(205, 202, 202);
+    cursor: pointer;
+    color:white;
 }
 
 .line{
