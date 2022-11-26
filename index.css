@@ -356,6 +356,7 @@ margin: 20px 0 0 0;
     background-color: white;
     border-radius: 20px;
     font-size: 20px;
+    box-shadow: 5px 5px 8px  black;
 }
 
 .square-button:hover{
