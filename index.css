@@ -146,14 +146,14 @@ text{
 .flexBox{
     display: flex;
    justify-content: center;
-   gap: 100px;
+   gap: 200px;
    margin:  0 0 0 -190px;
 }
 
 .flexBox2{
     display: flex;
-    margin-left: 15.8vw;
-   
+    margin-left: 10.5vw;
+   gap : 90px;
    margin-top: 50px;
 }
 
@@ -163,7 +163,7 @@ text{
     padding: 30px 50px;
     font-size: 25px;
     border-radius: 20px;
-    margin: 40px -20px 0px 8%;
+    margin: 40px -200px 0px 4%;
     line-height: 30px;
    
 }
@@ -175,7 +175,7 @@ text{
     padding: 30px 50px;
     font-size: 25px;
     border-radius: 20px;
-    margin: 45px -20px 0 0;
+    margin: 45px -250px 0 0;
     line-height: 30px;
     
     
@@ -186,9 +186,9 @@ text{
 
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 700px;
     height: 540px;
-    padding: 30px 50px;
+    padding: 30px 80px;
     font-size: 25px;
     margin: 75px 0 0 30px;
     border-radius: 20px;
@@ -216,7 +216,7 @@ text{
     font-size: 30px;
     border-radius: 20px;
     line-height: 40px;
-    margin: 8px 420px 300px 0;
+    margin: 8px 420px 350px 0;
 }
 
 
@@ -255,7 +255,7 @@ font-weight: 800;
     height: 540px;
     padding: 30px 50px;
     font-size: 25px;
-    margin: -290px 0 0 30px;
+    margin: -290px 50px 0 50px;
     border-radius: 20px;
     gap: 30px;
     line-height: 20px;
@@ -264,7 +264,7 @@ font-weight: 800;
 #downloadResume{
     display: flex;
     border:  3px solid black;
-    margin: -320px 0 0 -560px;
+    margin: -180px 0 0 -520px;
     width: 320px;
     box-shadow: 5px 5px 8px  black;
     border-radius: 10px;
@@ -288,7 +288,7 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 position: relative;
-margin: -300px 0 0 -560px;
+margin: -250px 0 0 -510px;
 width: 50vw;
 }
 
