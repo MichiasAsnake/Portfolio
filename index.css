@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Manrope', sans-serif;
     scroll-behavior: smooth;
@@ -17,10 +18,11 @@ header{
     padding: 20px;
 }
 .navBar{
+    
     display: flex;
     gap: 1em;
-}
-
+      }
+      
 h3:hover{
     cursor: pointer;
     color:  rgb(202, 202, 202);;
@@ -29,20 +31,6 @@ h3:hover{
 html {
     scroll-behavior: smooth;
   }
-
-a[ id= "servicios" ]:target ~ #main article.panel {
-    -webkit-transform: translateY( 0px);
-    transform: translateY( 0px );
-}
-
-a[ id= "galeria" ]:target ~ #main article.panel {
-    -webkit-transform: translateY( -500px );
-    transform: translateY( -500px );
-}
-a[ id= "contacto" ]:target ~ #main article.panel {
-    -webkit-transform: translateY( -1000px );
-    transform: translateY( -1000px );
-}
 
 /*landingCard*/
 
@@ -64,8 +52,7 @@ a[ id= "contacto" ]:target ~ #main article.panel {
 h1{
     font-size:  80px;
     line-height: 70px;
-    margin-bottom: 35px;
-  
+    margin-bottom: 35px;  
 }
 
 #mainCardP{
@@ -79,7 +66,7 @@ h1{
 #cardTitle{
     display: grid;
     justify-content: left;
-    text-align:left;
+    text-align:center;
     margin: 300px 0 -300px 20.3%;
     font-size: 40px;
     height: 150px;
@@ -148,6 +135,7 @@ text{
    justify-content: center;
    gap: 200px;
    margin:  0 0 0 -190px;
+   
 }
 
 .flexBox2{
@@ -155,9 +143,10 @@ text{
     margin-left: 10.5vw;
    gap : 90px;
    margin-top: 50px;
+   
 }
 
-.workEx{
+.workEx,.education{
     width: 450px;
     height: 540px;
     padding: 30px 50px;
@@ -166,20 +155,6 @@ text{
     margin: 40px -200px 0px 4%;
     line-height: 30px;
    
-}
-
-.education{
-    
-    width: 450px;
-    height: 540px;
-    padding: 30px 50px;
-    font-size: 25px;
-    border-radius: 20px;
-    margin: 45px -250px 0 0;
-    line-height: 30px;
-    
-    
-
 }
 
 .design{
@@ -219,15 +194,11 @@ text{
     margin: 8px 420px 350px 0;
 }
 
-
-
 #resumeTitle{
     line-height: 150px;
 margin-bottom: 0px;
 font-weight: 800;
-
 }
-
 
 #padding{
     margin: 28px 0 -20px;
@@ -259,6 +230,7 @@ font-weight: 800;
     border-radius: 20px;
     gap: 30px;
     line-height: 20px;
+    
 }
 
 #downloadResume{
@@ -432,8 +404,7 @@ i:hover{
 }
 
 .seven{
-    background-image: url("images/ipad\ iphone.png");
-    
+    background-image: url("images/ipad\ iphone.png");   
 }
 
 /* Coolors */
@@ -462,27 +433,19 @@ a{
     width:1150px;
 }
 
-.screenShot{
-    
+.screenShot{ 
 margin: 0 auto;
     width: 30vw;
-    height: 500px;
-    
+    height: 500px; 
 }
 
-.blogIts{
-    
-    
+.blogIts{ 
     display: flex;
-    
     flex-wrap: wrap;
     width: 80vw;
     gap: 20px;
     justify-content: center;
-    
-    margin: 45px auto;
-    
-    
+    margin: 45px auto; 
 }
 
 #swImg{
@@ -496,16 +459,13 @@ margin: 0 auto;
 }
 
 #amImg{
-   
     width: 100px;
-    margin: 15px 0 0 -25px;
-    
+    margin: 15px 0 0 -25px;    
 }
 
 #cImg{
     width: 100px;
-   margin: 15px 0 0 -30px;
-    
+   margin: 15px 0 0 -30px; 
 }
 
 .contactImg{
@@ -531,3 +491,148 @@ h1,h2,p,text,h3{
   }
   
 
+/*media queries*/
+
+ /* Extra small devices */
+ @media screen and (max-width: 600px) {html
+
+ .projectCards{
+    grid-template-columns: 1fr;
+    margin: 100px;
+ }
+
+ .cardFour{
+    width: 200px;
+    height: 340px;
+    padding: 10px 10px ;
+    font-size: 10px;
+}
+
+#cardTitle,#cardTitle2{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#formOne, #formTwo, #formThree{
+width: 300px;
+}
+
+ }
+
+ /* Small devices*/
+ @media screen and (max-width: 1174px) {html 
+
+ .cardFour{
+    width: 300px;
+    height: 440px;
+    font-size: 15px;
+}
+
+h1{
+    font-size:  60px;
+    line-height: 70px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.cardDiv{
+    margin-right: 0px;
+}
+
+.mainCard{
+    text-align:center;
+    margin: 100px auto;
+    padding: 30px;
+}
+
+#mainCardP{
+   margin: 5px auto 0px auto;
+    text-align: center;
+    width: 75%;
+    padding: 0 30px; 
+}
+
+#cardTitle{
+   justify-content: center;
+    margin: 0;
+}
+
+#cardTitle2{
+    text-align: center;
+    margin: 50px auto;
+    justify-content: center;
+    
+}
+#mainImg{
+    display: none;
+}
+
+.flexBox{
+    flex-direction: column;
+   margin:  250px auto 0px auto;
+   text-align: left;
+   gap: 5px;
+   
+}
+
+.flexBox2{
+    flex-direction: column;
+   margin: 100px auto 0px auto;
+   gap:0px
+}
+
+.design,#padding,.design-three,.design-two,
+.development,.workEx,.education,.onlineCourses,
+#downloadResume,#aboutMe,.contact{
+    flex-direction: column;
+    margin: 0px auto 20px auto;
+    padding: 0;
+    width: 70vw;
+    text-align: center;  
+}
+
+#aboutMe{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#contactDiv{
+    flex-direction: column;
+    }
+
+#cardTitle4{position: relative;}
+#amImg{display: none;}
+#rImg{display: none;}
+#formImg{display: none;}
+#cImg{display: none;}
+#swImg{display: none;}
+}
+ 
+ /* Medium devices */
+ @media screen and (max-width: 1706px) {html 
+ .projectCards{
+    grid-template-columns: 1fr;
+    margin: 50px;
+ }
+#cardTitle,#cardTitle2{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+h1,h2,p,text,h3{
+    opacity: 0;
+    transform: none;
+    transition: none;
+}
+}
+ 
+ /* Large devices */
+ @media screen and (min-width: 1188px) {
+
+ h1{
+    font-size:  60px;
+    line-height: 70px;
+    margin-bottom: 35px;
+} 
+}
+ 
