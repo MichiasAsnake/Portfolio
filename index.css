@@ -619,11 +619,7 @@ h1{
     margin-bottom: 50px;
     font-size: 40px;
 }
-h1,h2,p,text,h3{
-    opacity: 0;
-    transform: none;
-    transition: none;
-}
+
 }
  
  /* Large devices */
