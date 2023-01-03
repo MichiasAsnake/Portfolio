@@ -121,6 +121,10 @@ text{
    
 }
 
+.resumePadding{
+    margin-top:-200px;
+}
+
 .resume{
     display: grid;
     justify-items: center;
@@ -134,16 +138,16 @@ text{
     display: flex;
    justify-content: center;
    gap: 200px;
-   margin:  0 0 0 -190px;
-   
+   margin:  0 0 0 -190px; 
 }
 
 .flexBox2{
     display: flex;
-    margin-left: 10.5vw;
-   gap : 90px;
-   margin-top: 50px;
+    justify-content: center;
+    margin: 0 auto 10px auto;
+    width: 100vw;
    
+    gap : 0px;
 }
 
 .workEx,.education{
@@ -154,6 +158,7 @@ text{
     border-radius: 20px;
     margin: 40px -200px 0px 4%;
     line-height: 30px;
+    align-items: center;
    
 }
 
@@ -161,11 +166,12 @@ text{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 700px;
     height: 540px;
-    padding: 30px 80px;
+    padding: 30px 400px;
     font-size: 25px;
-    margin: 75px 0 0 30px;
+    margin: 75px -400px 0 30px;
     border-radius: 20px;
     gap: 30px;
     line-height: 40px;
@@ -175,9 +181,8 @@ text{
     display: flex;
     flex-direction: column;
     width: 450px;
-    height: 540px;
     padding: 30px 50px;
-    margin: 210px 0 0 -100px ;
+    margin: 230px 0 0 -100px ;
     font-size: 25px;
     border-radius: 20px;
     gap: 30px;
@@ -191,12 +196,12 @@ text{
     font-size: 30px;
     border-radius: 20px;
     line-height: 40px;
-    margin: 8px 420px 350px 0;
+    margin: 8px 420px 330px -20px;
 }
 
 #resumeTitle{
-    line-height: 150px;
-margin-bottom: 0px;
+    line-height: 140px;
+margin-top: 10px;
 font-weight: 800;
 }
 
@@ -212,7 +217,7 @@ font-weight: 800;
     height: 540px;
     padding: 30px 50px;
     font-size: 25px;
-    margin: 75px 0 0 30px;
+    margin: 95px 0 0 30px;
     border-radius: 20px;
     gap: 30px;
     line-height: 20px;
@@ -236,7 +241,7 @@ font-weight: 800;
 #downloadResume{
     display: flex;
     border:  3px solid black;
-    margin: -180px 0 0 -520px;
+    margin: -300px 0 0 -520px;
     width: 320px;
     box-shadow: 5px 5px 8px  black;
     border-radius: 10px;
@@ -251,6 +256,13 @@ font-weight: 800;
     background-color: rgb(205, 202, 202);
     cursor: pointer;
     color: white;
+}
+
+.downloadFlexbox{
+    display: flex;
+   justify-content: space-between;
+   gap: 200px;
+   margin-left: -30px;
 }
 
 /* About Me */
@@ -330,6 +342,7 @@ margin: 20px 0 0 0;
     border: 2px solid black;
     font-size: 20px;
     box-shadow: 5px 5px 8px  black;
+    margin-top: -100px;
 }
 
 .square-button:hover{
@@ -517,6 +530,18 @@ h1,h2,p,text,h3{
 width: 300px;
 }
 
+.design,#padding,.design-three,.design-two,
+.development,.workEx,.education,.onlineCourses,
+#downloadResume,#aboutMe,.contact{
+    flex-direction: column;
+    margin: 100px auto 20px auto;
+    padding: 0;
+    width: 70vw;
+    text-align: center;  
+    
+    justify-content: center;
+}
+
  }
 
  /* Small devices*/
@@ -568,8 +593,9 @@ h1{
 }
 
 .flexBox{
-    flex-direction: column;
+   flex-direction: column;
    margin:  250px auto 0px auto;
+
    text-align: left;
    gap: 5px;
    
@@ -577,7 +603,8 @@ h1{
 
 .flexBox2{
     flex-direction: column;
-   margin: 100px auto 0px auto;
+    justify-content: center;
+   margin: 0px auto 0px auto;
    gap:0px
 }
 
@@ -585,11 +612,32 @@ h1{
 .development,.workEx,.education,.onlineCourses,
 #downloadResume,#aboutMe,.contact{
     flex-direction: column;
-    margin: 0px auto 20px auto;
-    padding: 0;
+    margin: 50px auto 20px auto;
+    padding: 0 auto;
     width: 70vw;
     text-align: center;  
+    justify-content: center;
 }
+
+.downloadFlexbox{
+    flex-direction: column;
+    gap:75px;
+    margin-left: 460px;
+    margin-top: 150px;
+    
+}
+
+#cardTitle{
+    width: 50vw;
+    
+    margin: -300px auto 0 auto;
+    }
+
+#cardTitle4{
+    margin-top: 150px;
+    text-align: center;
+}
+
 
 #aboutMe{
     margin-top: 200px;
@@ -609,17 +657,75 @@ h1{
 #swImg{display: none;}
 }
  
+
+
  /* Medium devices */
  @media screen and (max-width: 1706px) {html 
  .projectCards{
     grid-template-columns: 1fr;
     margin: 50px;
  }
-#cardTitle,#cardTitle2{
-    margin-bottom: 50px;
-    font-size: 40px;
+#cardTitle{
+width: 50vw;
+
+margin: -300px auto 0 auto;
+}
+ .flexBox,.flexBox2{
+    
+    justify-content: center;
+    width: 75vw;
+    margin:0 auto;
+    padding-top: 0;
+ }
+
+ .resumePadding{
+    margin-top: 140px;
+ }
+
+ #cardTitle{
+    margin:0px 0 0px 20.3%;  
+ }
+#swImg{
+    margin-top:-100px;
+    margin-bottom: -300px;
 }
 
+.design{
+    margin-right: 100px;
+    margin-top:100px;
+   padding: 10px 50px;
+   
+}
+.onlineCourses{
+    margin: 8px 0px 30px -20px;
+    padding: 20px;
+}
+.education{
+    margin-right:0px;
+}
+
+#cardTitle4{
+margin-top: 300px;
+}
+.development{
+    margin-top: 155px;
+}
+.design-two{
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height:400px;
+}
+#aboutMe{
+    margin-top: -100px;
+}
+#downloadResume{
+    margin-top:-200px;
+    margin-left: -450px;
+}
+.design-three{
+    margin: -100px 0 0 20px ;
+}
 }
  
  /* Large devices */
