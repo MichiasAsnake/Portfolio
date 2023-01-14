@@ -1,4 +1,4 @@
-# My name is Michias Asnake, Welcome to my portfolio
+# Hi Im Michias Asnake, Welcome to my portfolio
 
 I am a primarily self taught Web Devleoper with in an intrest in front and back end development. On my own time I am currently exploring machine learning with Python and
 building on my current knowledge of data structures and algorithims. I love helping people create things that are accessible and usable for all.
